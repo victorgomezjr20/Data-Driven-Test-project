@@ -77,7 +77,7 @@ test.describe('Asana Data-Driven Tests', () => {
         // Verify column is visible
         await expect(columnLocator).toBeVisible();
 
-        // Verify card is visible
+        // Verify card is visible 
         await expect(cardLocator).toBeVisible();
       });
 
